@@ -1,0 +1,25 @@
+# PKS Detector
+
+## Project Description
+PKS Detector is a tool designed to detect potential parkinson desease by analyzing the driving behavior.
+
+
+## Installation
+To install the PKS Detector, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/xiaoyuanzi22333/Disease-related-Abnormal-Driving--Behavior-Detection.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd pks_detector
+    ```
+## Usage
+To use the PKS Detector, run the following command:
+
+1. Start the model baseline:
+    ```bash
+    bash baseline_script.sh
+    ```
+    you can modify the inner parameters like training epoch and batchsize by accessing the [baseline_script.sh](./baseline_script.sh)
